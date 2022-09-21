@@ -8,7 +8,7 @@
 // b) Podem existir dias sem faturamento, como nos finais de semana e feriados. Estes dias devem ser ignorados no cálculo da média;
 
 
-const dadosJson = require('./dados.json')
+const dadosJson = require('../dados.json')
 
 //Separando os valores 0 de faturamento
 const semZero = dadosJson.filter((arr) => {
